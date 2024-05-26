@@ -68,3 +68,16 @@ The application fetches data from a serverless API endpoint. The endpoint reads 
 ## API Endpoint
 
 - /api/vendorsData: Returns the JSON data from the vendor_advisories.csv file.
+
+<img width="1507" alt="Screenshot 2024-05-26 at 7 16 01 PM" src="https://github.com/muzaffar640/transilience/assets/55223302/cc4cfc18-b38b-4272-88b8-5ae625f5a79a">
+<img width="1507" alt="Screenshot 2024-05-26 at 7 16 11 PM" src="https://github.com/muzaffar640/transilience/assets/55223302/b7c92697-af9b-4b41-bb9a-666c5b309473">
+<img width="1507" alt="Screenshot 2024-05-26 at 7 16 30 PM" src="https://github.com/muzaffar640/transilience/assets/55223302/dc47b5c4-7bb0-454d-ada2-b909e48f12bc">
+<img width="424" alt="Screenshot 2024-05-26 at 7 17 18 PM" src="https://github.com/muzaffar640/transilience/assets/55223302/220198f7-292a-450e-ae3e-843d79a4b1d2">
+<img width="424" alt="Screenshot 2024-05-26 at 7 17 29 PM" src="https://github.com/muzaffar640/transilience/assets/55223302/a8fc9708-4e33-4b58-aae6-cc5e749fbd26">
+  <img width="424" alt="Screenshot 2024-05-26 at 7 17 42 PM" src="https://github.com/muzaffar640/transilience/assets/55223302/5d851ff1-fd38-4e71-bb17-edc63311370d">
+
+
+
+
+
+
