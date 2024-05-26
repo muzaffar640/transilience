@@ -14,8 +14,8 @@ import {
   processDoughnutData,
   processPieData,
   createPieData,
-  processHorizontalBarData,
-  createHorizontalBarData,
+  processVerticalBarData,
+  createVerticalBarData,
   processAttackVectorData,
   createAttackVectorBarData,
   processThreatVectorDataForBarChart,
@@ -64,8 +64,8 @@ const ClientDashboard: React.FC<ClientDashboardProps> = ({ data }) => {
       const techCountsForPie = processPieData(data);
       setPieData(createPieData(techCountsForPie));
 
-      const { severityCounts, tacticCounts } = processHorizontalBarData(data);
-      setVerticalBarData(createHorizontalBarData(severityCounts, tacticCounts));
+      const { severityCounts, tacticCounts } = processVerticalBarData(data);
+      setVerticalBarData(createVerticalBarData(severityCounts, tacticCounts));
 
       const attackVectorCounts = processAttackVectorData(data);
       setHorizontalBarData(createAttackVectorBarData(attackVectorCounts));

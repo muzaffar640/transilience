@@ -125,7 +125,7 @@ export const createPieData = (techCounts: { [key: string]: number }) => {
   return pieData;
 };
 
-export const processHorizontalBarData = (data: VulnerabilityData[]) => {
+export const processVerticalBarData = (data: VulnerabilityData[]) => {
   const severityCounts: { [key: string]: number } = {};
   const tacticCounts: { [key: string]: number } = {};
 
@@ -150,7 +150,7 @@ export const processHorizontalBarData = (data: VulnerabilityData[]) => {
   return { severityCounts, tacticCounts };
 };
 
-export const createHorizontalBarData = (
+export const createVerticalBarData = (
   severityCounts: { [key: string]: number },
   tacticCounts: { [key: string]: number }
 ) => {
