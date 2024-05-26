@@ -20,7 +20,7 @@ import {
   createAttackVectorBarData,
   processThreatVectorDataForBarChart,
   createThreatVectorBarData,
-} from "@/app/utils/utils";
+} from "@/utils/utils";
 import { ChartData } from "chart.js";
 import Loader from "./Loader/Loader";
 
