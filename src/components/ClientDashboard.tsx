@@ -7,6 +7,7 @@ import BarChart from "./Chart/BarChart";
 import Modal from "./Modal";
 import { VulnerabilityData } from "../../types/VulnerabilityData";
 import ChartCard from "./Card/ChartCard";
+
 import {
   countAdvisoriesPerMonth,
   createDoughnutData,
@@ -21,6 +22,7 @@ import {
   createThreatVectorBarData,
 } from "@/app/utils/utils";
 import { ChartData } from "chart.js";
+import Loader from "./Loader/Loader";
 
 interface ClientDashboardProps {
   data: VulnerabilityData[];
@@ -91,7 +93,7 @@ const ClientDashboard: React.FC<ClientDashboardProps> = ({ data }) => {
     !horizontalBarData ||
     !threatVectorBarData
   ) {
-    return <div>Loading...</div>;
+    return <Loader />;
   }
 
   return (
