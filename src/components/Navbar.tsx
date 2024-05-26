@@ -9,13 +9,13 @@ const Navbar = () => {
         <Image
           src="/logo.png"
           alt="Transilience AI Logo"
-          width={40}
-          height={40}
+          width={50}
+          height={50}
         />
-        <span className="ml-2 text-xl font-semibold">Transilience AI</span>
+        <span className="ml-2 text-lg font-semibold">Transilience AI</span>
       </div>
       <div className="flex items-center space-x-4">
-        <span className="text-lg">
+        <span className="text-md">
           Welcome <strong>Muzaffar H.</strong>
         </span>
         <Link href="/">

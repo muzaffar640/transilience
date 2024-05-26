@@ -9,7 +9,6 @@ export default async function handler(req: any, res: any) {
   try {
     await fs.access(csvFilePath);
 
-    // Parse CSV data and cast to VulnerabilityData[]
     const jsonArray: VulnerabilityData[] = (await csv().fromFile(
       csvFilePath
     )) as VulnerabilityData[];

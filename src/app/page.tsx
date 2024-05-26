@@ -1,5 +1,14 @@
-import Image from "next/image";
+import React from "react";
+import { VulnerabilityData } from "../../types/VulnerabilityData";
+import ClientDashboard from "../components/ClientDashboard";
 
-export default function Home() {
-  return <div>Home page</div>;
+export default async function HomePage() {
+  const res = await fetch("http://localhost:3001/api/vendorsData");
+  const data: VulnerabilityData[] = await res.json();
+
+  return (
+    <div className="px-6 md:px-10 lg:px-14">
+      <ClientDashboard data={data} />
+    </div>
+  );
 }

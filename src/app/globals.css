@@ -18,3 +18,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom-title {
+  color: #924cf4;
+  text-align: left;
+  font-size: x-large;
+  font-weight: 700;
+}
